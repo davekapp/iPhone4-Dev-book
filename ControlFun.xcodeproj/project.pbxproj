@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E6998B513A9A0D5002A6368 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6998B413A9A0D5002A6368 /* UIKit.framework */; };
+		4E6998B713A9A0D5002A6368 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6998B613A9A0D5002A6368 /* Foundation.framework */; };
+		4E6998B913A9A0D5002A6368 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6998B813A9A0D5002A6368 /* CoreGraphics.framework */; };
+		4E6998BF13A9A0D5002A6368 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E6998BD13A9A0D5002A6368 /* InfoPlist.strings */; };
+		4E6998C213A9A0D5002A6368 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6998C113A9A0D5002A6368 /* main.m */; };
+		4E6998C513A9A0D5002A6368 /* ControlFunAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6998C413A9A0D5002A6368 /* ControlFunAppDelegate.m */; };
+		4E6998C813A9A0D5002A6368 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E6998C613A9A0D5002A6368 /* MainWindow.xib */; };
+		4E6998CB13A9A0D5002A6368 /* ControlFunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6998CA13A9A0D5002A6368 /* ControlFunViewController.m */; };
+		4E6998CE13A9A0D5002A6368 /* ControlFunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E6998CC13A9A0D5002A6368 /* ControlFunViewController.xib */; };
+		4E6998D513A9A0D5002A6368 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6998B413A9A0D5002A6368 /* UIKit.framework */; };
+		4E6998D613A9A0D5002A6368 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6998B613A9A0D5002A6368 /* Foundation.framework */; };
+		4E6998D713A9A0D5002A6368 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6998B813A9A0D5002A6368 /* CoreGraphics.framework */; };
+		4E6998DF13A9A0D5002A6368 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E6998DD13A9A0D5002A6368 /* InfoPlist.strings */; };
+		4E6998E213A9A0D5002A6368 /* ControlFunTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4E6998E113A9A0D5002A6368 /* ControlFunTests.h */; };
+		4E6998E413A9A0D5002A6368 /* ControlFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6998E313A9A0D5002A6368 /* ControlFunTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E6998D813A9A0D5002A6368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E6998A713A9A0D4002A6368 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E6998AF13A9A0D5002A6368;
+			remoteInfo = ControlFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E6998B013A9A0D5002A6368 /* ControlFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6998B413A9A0D5002A6368 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E6998B613A9A0D5002A6368 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E6998B813A9A0D5002A6368 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E6998BC13A9A0D5002A6368 /* ControlFun-Info.plist */ = {isa = PBXFileReference; path = "ControlFun-Info.plist"; sourceTree = "<group>"; };
+		4E6998BE13A9A0D5002A6368 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E6998C013A9A0D5002A6368 /* ControlFun-Prefix.pch */ = {isa = PBXFileReference; path = "ControlFun-Prefix.pch"; sourceTree = "<group>"; };
+		4E6998C113A9A0D5002A6368 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E6998C313A9A0D5002A6368 /* ControlFunAppDelegate.h */ = {isa = PBXFileReference; path = ControlFunAppDelegate.h; sourceTree = "<group>"; };
+		4E6998C413A9A0D5002A6368 /* ControlFunAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlFunAppDelegate.m; sourceTree = "<group>"; };
+		4E6998C713A9A0D5002A6368 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4E6998C913A9A0D5002A6368 /* ControlFunViewController.h */ = {isa = PBXFileReference; path = ControlFunViewController.h; sourceTree = "<group>"; };
+		4E6998CA13A9A0D5002A6368 /* ControlFunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlFunViewController.m; sourceTree = "<group>"; };
+		4E6998CD13A9A0D5002A6368 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ControlFunViewController.xib; sourceTree = "<group>"; };
+		4E6998D413A9A0D5002A6368 /* ControlFunTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControlFunTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6998DC13A9A0D5002A6368 /* ControlFunTests-Info.plist */ = {isa = PBXFileReference; path = "ControlFunTests-Info.plist"; sourceTree = "<group>"; };
+		4E6998DE13A9A0D5002A6368 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E6998E013A9A0D5002A6368 /* ControlFunTests-Prefix.pch */ = {isa = PBXFileReference; path = "ControlFunTests-Prefix.pch"; sourceTree = "<group>"; };
+		4E6998E113A9A0D5002A6368 /* ControlFunTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlFunTests.h; sourceTree = "<group>"; };
+		4E6998E313A9A0D5002A6368 /* ControlFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlFunTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E6998AD13A9A0D5002A6368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6998B513A9A0D5002A6368 /* UIKit.framework in Frameworks */,
+				4E6998B713A9A0D5002A6368 /* Foundation.framework in Frameworks */,
+				4E6998B913A9A0D5002A6368 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6998D013A9A0D5002A6368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6998D513A9A0D5002A6368 /* UIKit.framework in Frameworks */,
+				4E6998D613A9A0D5002A6368 /* Foundation.framework in Frameworks */,
+				4E6998D713A9A0D5002A6368 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E6998A513A9A0D4002A6368 = {
+			isa = PBXGroup;
+			children = (
+				4E6998BA13A9A0D5002A6368 /* ControlFun */,
+				4E6998DA13A9A0D5002A6368 /* ControlFunTests */,
+				4E6998B313A9A0D5002A6368 /* Frameworks */,
+				4E6998B113A9A0D5002A6368 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E6998B113A9A0D5002A6368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E6998B013A9A0D5002A6368 /* ControlFun.app */,
+				4E6998D413A9A0D5002A6368 /* ControlFunTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E6998B313A9A0D5002A6368 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E6998B413A9A0D5002A6368 /* UIKit.framework */,
+				4E6998B613A9A0D5002A6368 /* Foundation.framework */,
+				4E6998B813A9A0D5002A6368 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E6998BA13A9A0D5002A6368 /* ControlFun */ = {
+			isa = PBXGroup;
+			children = (
+				4E6998C313A9A0D5002A6368 /* ControlFunAppDelegate.h */,
+				4E6998C413A9A0D5002A6368 /* ControlFunAppDelegate.m */,
+				4E6998C613A9A0D5002A6368 /* MainWindow.xib */,
+				4E6998C913A9A0D5002A6368 /* ControlFunViewController.h */,
+				4E6998CA13A9A0D5002A6368 /* ControlFunViewController.m */,
+				4E6998CC13A9A0D5002A6368 /* ControlFunViewController.xib */,
+				4E6998BB13A9A0D5002A6368 /* Supporting Files */,
+			);
+			path = ControlFun;
+			sourceTree = "<group>";
+		};
+		4E6998BB13A9A0D5002A6368 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E6998BC13A9A0D5002A6368 /* ControlFun-Info.plist */,
+				4E6998BD13A9A0D5002A6368 /* InfoPlist.strings */,
+				4E6998C013A9A0D5002A6368 /* ControlFun-Prefix.pch */,
+				4E6998C113A9A0D5002A6368 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E6998DA13A9A0D5002A6368 /* ControlFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E6998E113A9A0D5002A6368 /* ControlFunTests.h */,
+				4E6998E313A9A0D5002A6368 /* ControlFunTests.m */,
+				4E6998DB13A9A0D5002A6368 /* Supporting Files */,
+			);
+			path = ControlFunTests;
+			sourceTree = "<group>";
+		};
+		4E6998DB13A9A0D5002A6368 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E6998DC13A9A0D5002A6368 /* ControlFunTests-Info.plist */,
+				4E6998DD13A9A0D5002A6368 /* InfoPlist.strings */,
+				4E6998E013A9A0D5002A6368 /* ControlFunTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E6998AF13A9A0D5002A6368 /* ControlFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E6998E713A9A0D5002A6368 /* Build configuration list for PBXNativeTarget "ControlFun" */;
+			buildPhases = (
+				4E6998AC13A9A0D5002A6368 /* Sources */,
+				4E6998AD13A9A0D5002A6368 /* Frameworks */,
+				4E6998AE13A9A0D5002A6368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ControlFun;
+			productName = ControlFun;
+			productReference = 4E6998B013A9A0D5002A6368 /* ControlFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E6998D313A9A0D5002A6368 /* ControlFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E6998EA13A9A0D5002A6368 /* Build configuration list for PBXNativeTarget "ControlFunTests" */;
+			buildPhases = (
+				4E6998CF13A9A0D5002A6368 /* Sources */,
+				4E6998D013A9A0D5002A6368 /* Frameworks */,
+				4E6998D113A9A0D5002A6368 /* Resources */,
+				4E6998D213A9A0D5002A6368 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E6998D913A9A0D5002A6368 /* PBXTargetDependency */,
+			);
+			name = ControlFunTests;
+			productName = ControlFunTests;
+			productReference = 4E6998D413A9A0D5002A6368 /* ControlFunTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E6998A713A9A0D4002A6368 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4E6998AA13A9A0D4002A6368 /* Build configuration list for PBXProject "ControlFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E6998A513A9A0D4002A6368;
+			productRefGroup = 4E6998B113A9A0D5002A6368 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E6998AF13A9A0D5002A6368 /* ControlFun */,
+				4E6998D313A9A0D5002A6368 /* ControlFunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E6998AE13A9A0D5002A6368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6998BF13A9A0D5002A6368 /* InfoPlist.strings in Resources */,
+				4E6998C813A9A0D5002A6368 /* MainWindow.xib in Resources */,
+				4E6998CE13A9A0D5002A6368 /* ControlFunViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6998D113A9A0D5002A6368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6998DF13A9A0D5002A6368 /* InfoPlist.strings in Resources */,
+				4E6998E213A9A0D5002A6368 /* ControlFunTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E6998D213A9A0D5002A6368 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E6998AC13A9A0D5002A6368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6998C213A9A0D5002A6368 /* main.m in Sources */,
+				4E6998C513A9A0D5002A6368 /* ControlFunAppDelegate.m in Sources */,
+				4E6998CB13A9A0D5002A6368 /* ControlFunViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6998CF13A9A0D5002A6368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6998E413A9A0D5002A6368 /* ControlFunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E6998D913A9A0D5002A6368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E6998AF13A9A0D5002A6368 /* ControlFun */;
+			targetProxy = 4E6998D813A9A0D5002A6368 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E6998BD13A9A0D5002A6368 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E6998BE13A9A0D5002A6368 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E6998C613A9A0D5002A6368 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E6998C713A9A0D5002A6368 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4E6998CC13A9A0D5002A6368 /* ControlFunViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E6998CD13A9A0D5002A6368 /* en */,
+			);
+			name = ControlFunViewController.xib;
+			sourceTree = "<group>";
+		};
+		4E6998DD13A9A0D5002A6368 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E6998DE13A9A0D5002A6368 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E6998E513A9A0D5002A6368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E6998E613A9A0D5002A6368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		4E6998E813A9A0D5002A6368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ControlFun/ControlFun-Prefix.pch";
+				INFOPLIST_FILE = "ControlFun/ControlFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E6998E913A9A0D5002A6368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ControlFun/ControlFun-Prefix.pch";
+				INFOPLIST_FILE = "ControlFun/ControlFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E6998EB13A9A0D5002A6368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ControlFun.app/ControlFun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ControlFunTests/ControlFunTests-Prefix.pch";
+				INFOPLIST_FILE = "ControlFunTests/ControlFunTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4E6998EC13A9A0D5002A6368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ControlFun.app/ControlFun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ControlFunTests/ControlFunTests-Prefix.pch";
+				INFOPLIST_FILE = "ControlFunTests/ControlFunTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E6998AA13A9A0D4002A6368 /* Build configuration list for PBXProject "ControlFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E6998E513A9A0D5002A6368 /* Debug */,
+				4E6998E613A9A0D5002A6368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E6998E713A9A0D5002A6368 /* Build configuration list for PBXNativeTarget "ControlFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E6998E813A9A0D5002A6368 /* Debug */,
+				4E6998E913A9A0D5002A6368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E6998EA13A9A0D5002A6368 /* Build configuration list for PBXNativeTarget "ControlFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E6998EB13A9A0D5002A6368 /* Debug */,
+				4E6998EC13A9A0D5002A6368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E6998A713A9A0D4002A6368 /* Project object */;
+}
