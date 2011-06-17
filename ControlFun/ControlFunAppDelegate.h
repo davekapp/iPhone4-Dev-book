@@ -10,12 +10,12 @@
 
 @class ControlFunViewController;
 
-@interface ControlFunAppDelegate : NSObject <UIApplicationDelegate> {
-
-}
+@interface ControlFunAppDelegate : NSObject <UIApplicationDelegate>
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-
 @property (nonatomic, retain) IBOutlet ControlFunViewController *viewController;
+@property (nonatomic, retain) IBOutlet UITextField *nameField;
+@property (nonatomic, retain) IBOutlet UITextField *numberField;
+
 
 @end

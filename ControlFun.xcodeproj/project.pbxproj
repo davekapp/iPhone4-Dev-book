@@ -22,6 +22,7 @@
 		4E6998DF13A9A0D5002A6368 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E6998DD13A9A0D5002A6368 /* InfoPlist.strings */; };
 		4E6998E213A9A0D5002A6368 /* ControlFunTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4E6998E113A9A0D5002A6368 /* ControlFunTests.h */; };
 		4E6998E413A9A0D5002A6368 /* ControlFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6998E313A9A0D5002A6368 /* ControlFunTests.m */; };
+		4E6998EE13A9A1AC002A6368 /* chi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E6998ED13A9A1AC002A6368 /* chi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +40,23 @@
 		4E6998B413A9A0D5002A6368 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4E6998B613A9A0D5002A6368 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4E6998B813A9A0D5002A6368 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4E6998BC13A9A0D5002A6368 /* ControlFun-Info.plist */ = {isa = PBXFileReference; path = "ControlFun-Info.plist"; sourceTree = "<group>"; };
+		4E6998BC13A9A0D5002A6368 /* ControlFun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ControlFun-Info.plist"; sourceTree = "<group>"; };
 		4E6998BE13A9A0D5002A6368 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4E6998C013A9A0D5002A6368 /* ControlFun-Prefix.pch */ = {isa = PBXFileReference; path = "ControlFun-Prefix.pch"; sourceTree = "<group>"; };
+		4E6998C013A9A0D5002A6368 /* ControlFun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ControlFun-Prefix.pch"; sourceTree = "<group>"; };
 		4E6998C113A9A0D5002A6368 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4E6998C313A9A0D5002A6368 /* ControlFunAppDelegate.h */ = {isa = PBXFileReference; path = ControlFunAppDelegate.h; sourceTree = "<group>"; };
+		4E6998C313A9A0D5002A6368 /* ControlFunAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlFunAppDelegate.h; sourceTree = "<group>"; };
 		4E6998C413A9A0D5002A6368 /* ControlFunAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlFunAppDelegate.m; sourceTree = "<group>"; };
 		4E6998C713A9A0D5002A6368 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		4E6998C913A9A0D5002A6368 /* ControlFunViewController.h */ = {isa = PBXFileReference; path = ControlFunViewController.h; sourceTree = "<group>"; };
+		4E6998C913A9A0D5002A6368 /* ControlFunViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlFunViewController.h; sourceTree = "<group>"; };
 		4E6998CA13A9A0D5002A6368 /* ControlFunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlFunViewController.m; sourceTree = "<group>"; };
 		4E6998CD13A9A0D5002A6368 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ControlFunViewController.xib; sourceTree = "<group>"; };
 		4E6998D413A9A0D5002A6368 /* ControlFunTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControlFunTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E6998DC13A9A0D5002A6368 /* ControlFunTests-Info.plist */ = {isa = PBXFileReference; path = "ControlFunTests-Info.plist"; sourceTree = "<group>"; };
+		4E6998DC13A9A0D5002A6368 /* ControlFunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ControlFunTests-Info.plist"; sourceTree = "<group>"; };
 		4E6998DE13A9A0D5002A6368 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4E6998E013A9A0D5002A6368 /* ControlFunTests-Prefix.pch */ = {isa = PBXFileReference; path = "ControlFunTests-Prefix.pch"; sourceTree = "<group>"; };
+		4E6998E013A9A0D5002A6368 /* ControlFunTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ControlFunTests-Prefix.pch"; sourceTree = "<group>"; };
 		4E6998E113A9A0D5002A6368 /* ControlFunTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlFunTests.h; sourceTree = "<group>"; };
 		4E6998E313A9A0D5002A6368 /* ControlFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlFunTests.m; sourceTree = "<group>"; };
+		4E6998ED13A9A1AC002A6368 /* chi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				4E6998C313A9A0D5002A6368 /* ControlFunAppDelegate.h */,
 				4E6998C413A9A0D5002A6368 /* ControlFunAppDelegate.m */,
+				4E6998ED13A9A1AC002A6368 /* chi.png */,
 				4E6998C613A9A0D5002A6368 /* MainWindow.xib */,
 				4E6998C913A9A0D5002A6368 /* ControlFunViewController.h */,
 				4E6998CA13A9A0D5002A6368 /* ControlFunViewController.m */,
@@ -225,6 +228,7 @@
 				4E6998BF13A9A0D5002A6368 /* InfoPlist.strings in Resources */,
 				4E6998C813A9A0D5002A6368 /* MainWindow.xib in Resources */,
 				4E6998CE13A9A0D5002A6368 /* ControlFunViewController.xib in Resources */,
+				4E6998EE13A9A1AC002A6368 /* chi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

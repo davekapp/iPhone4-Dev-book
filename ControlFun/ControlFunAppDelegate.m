@@ -14,8 +14,9 @@
 
 
 @synthesize window=_window;
-
 @synthesize viewController=_viewController;
+@synthesize nameField=_nameField;
+@synthesize numberField=_numberField;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -69,6 +70,8 @@
 {
     [_window release];
     [_viewController release];
+    [_nameField release];
+    [_numberField release];
     [super dealloc];
 }
 
